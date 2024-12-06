@@ -22,7 +22,7 @@ submit.addEventListener('click',()=>{
             userFound=true;
             if(users[i].password==password.value)
             {
-                   alert("user successfully logged in");
+                   alert("user successfully logged n");
                   window.location.href='./home.html'
                   break;
             }
